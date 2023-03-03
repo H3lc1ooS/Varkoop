@@ -1,0 +1,27 @@
+.logo {
+    margin-left: 2rem;
+}
+
+.form-body {
+    /* background-color: red; */
+    height: 80vh;
+}
+
+/* .textos{
+
+}*/
+
+.button {
+    background: linear-gradient(273.88deg, #3939FF -6.24%, #010174 66.3%);
+    box-shadow: 0rem 0.24rem 0.24rem rgba(0, 0, 0, 0.05);
+    border-radius: 1.8rem;
+    padding: 0.12rem;
+}
+
+.social{
+    padding: 0.5rem;
+}
+
+.facebook{
+    background-color: #0276FD;
+}
