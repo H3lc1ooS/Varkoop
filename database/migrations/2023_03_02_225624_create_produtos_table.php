@@ -20,7 +20,7 @@ return new class extends Migration {
             $table->string('nome_produto', 150);
             $table->longText('descricao_produto');
 
-            $table->foreignId('estado_id')
+            $table->foreignId('estado_produto_id')
                 ->constrained('estados')
                 ->cascadeOnDelete()
                 ->cascadeOnUpdate();
