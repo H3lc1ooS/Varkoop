@@ -16,9 +16,8 @@
 	height: 110px;
 	width: 100%;
 	background-color: #000014;
-	width: 100vw;
   }
-  
+
   /* Navbar  */
   .navbar-left {
 	display: flex;
@@ -29,7 +28,7 @@
 	justify-content: space-around;
 	align-items: flex-start;
 	padding: 1em 20px 1em 20px;
-	
+
   }
   .logo {
 	font-size: 24px;
@@ -39,19 +38,19 @@
 	margin-right: 20px;
 	text-decoration: none;
   }
-  
+
   .dropdown {
 	position: relative;
 	font-weight: 600;
 	margin-left: 10px;
   }
-  
+
   .dropdown-toggle {
 	font-size: 16px;
 	color: #fff;
 	text-decoration: none;
   }
-  
+
   .dropdown-menu {
 	position: absolute;
 	top: 100%;
@@ -65,17 +64,17 @@
 	.dropdown a:hover{
 	color: #4305ff;
 	}
-  
+
   .dropdown:hover .dropdown-menu {
 	display: block;
 
   }
-  
+
   .dropdown-menu li {
 	margin: 5px 0;
 	list-style: none;
   }
-  
+
   .dropdown-menu li a {
 	display: block;
 	padding: 5px 10px;
@@ -85,12 +84,12 @@
 	transition: background-color 0.2s ease;
 	width: 50vw;
   }
-  
+
   .dropdown-menu li a:hover {
 	background-color: #4305ff;
 	color: #fff;
   }
-  
+
   .promo {
 	margin-left: 2em ;
 	font-weight: 600;
@@ -111,7 +110,7 @@
 	position: relative;
 	margin-left: -8em;
 	margin-right: 5em;
-  }  
+  }
   .search input[type="text"] {
 	width: 523px;
 	height: 40px;
@@ -126,17 +125,17 @@
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 	transition: all 0.3s ease;
 	}
-	
+
 	.search input[type="text"]::placeholder {
 	color: #000;
 	font-weight: 800;
 	}
-	
+
 	.search input[type="text"]:focus {
 	outline: none;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 	}
-	
+
 	.search .search-icon {
 	position: absolute;
 	top: 50%;
@@ -155,7 +154,7 @@
 	.user-icon,
 	.cart-icon {
 	font-size: 1.5em;
-	
+
 	color: #fff;
 	margin-left: 10px;
 	}
@@ -179,7 +178,7 @@
 	margin-right:20vw ;
 	margin-left:20vw ;
 	}
-	
+
 	.navlinlks-ul {
 	display: flex;
 	flex-direction: row;
@@ -192,7 +191,7 @@
 		text-decoration: none;
 		color: #fff;
 	}
-	
+
 	.nav-link {
 	list-style: none;
 	font-size: 0.8em;
@@ -204,41 +203,54 @@
 	font-weight: 500;
 	transition: 0.2s ease;
 	}
-	
+
 	.nav-link a:hover {
 	color: #4305ff;
 	font-weight: 600;
 
-	}	
+	}
 	/*Container*/
 	.container{
 		margin-left: 5vw;
 		margin-right: 5vw;
 	}
 	/*Scrool */
+    .scroll-bar{
+        height: 14.9rem;
+        margin-bottom: 4rem;
+        background: linear-gradient(269.69deg, #2F00C1 -9.21%, #10013C 93.77%);
+    }
 	/*Promoções*/
 	/*Descubrir*/
-	.descubrir{
+	.descobrir{
 		display: block;
-			
 	}
+
 	.categorias{
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		height: 264px;
-	
+        margin-bottom: 5rem;
 	}
+
+    .categoria{
+        background-color: red;
+        margin-left: 3.2rem;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        width: 8rem;
+        padding: 1rem;
+    }
+
 	.vertudo{
-		margin-left: ;
 		font-size: 1.1em;
 		font-weight: 600;
 	}
 	.vertudo a{
 		font-size: 0.7em;
 	}
-	.categoria{
+	/* .categoria{
 		width:194px;
 		height: 176px;
 		border-radius: 50%;
@@ -248,9 +260,25 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	}
-	
+	} */
+
 	/*Recomendados*/
+    .card-produto{
+        background-color: red;
+        width: 15%;
+        height: 27rem;
+    }
+
+    .img-area{
+        background-color: blue;
+        width: 80%;
+        margin-top: 1rem;
+        aspect-ratio: 1/1;
+    }
+
+    .nomeProduto, .produto-card-footer, .rating, .preco, .vendidos{
+        margin-top: 1rem;
+    }
 
 	/*Informações*/
 	.outras-info{
@@ -293,7 +321,7 @@
 		margin-top: 4em;
 		margin-left: 3vw;
 		margin-right: 3vw;
-		
+
 	}
 
 	footer .descricao{
@@ -329,7 +357,7 @@
 		color: #fff;
 		font-weight: 700;
 	}
-	
+
 	/*Responsive*/
 	@media (max-width: 768px) {
 	.navbar {
@@ -351,10 +379,9 @@
 		}
 		footer .footer-container{
 			display: flex;
-			flex-direction: column;	
+			flex-direction: column;
 
 		}
 
 	}
 
-  
